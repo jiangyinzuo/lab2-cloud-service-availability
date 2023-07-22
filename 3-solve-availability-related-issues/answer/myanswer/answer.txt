@@ -1,0 +1,7 @@
+1. Redundant Backup, Horizontal Scaling (Data Sharding)
+
+2. Start 2 or more replicas.
+
+3. For system-level metrics, use virtualization technology (containers, VM, ...) to monitor the CPU, memory, and disk usage of the host. For application-level metrics, collect fine-grained metrics for each user's request.
+
+4. It is OK if the interval between 2 metric collection is larger than 5 minutes.
